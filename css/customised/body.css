@@ -1,0 +1,193 @@
+/*!
+ * Bootstrap v3.0.0
+ * Body css code (under development).
+ */
+
+/* BACKGROUND IMAGE
+body {
+  background-image: url('../../img/background/logos-watermarked.jpg');
+  background-position: center top;
+}
+
+#head {
+  background-image: url('../../img/background/backdrop.jpg');
+  background-repeat: no-repeat;
+  background-size: 518px 120px;
+  background-position: center 10px;
+}
+*/
+
+/*
+ * purple dark   = #CFA5D2
+ * purple middle = #E5CAE8
+ * purple light  = #FCF7FF
+ *
+ * name purple = #C38EC7
+ * name blue   = #848FC7
+ */ 
+
+a {
+  color:#4E53CD;
+  -webkit-transition:color 0.5s;
+}
+
+a:hover {
+  color: #CC2438;
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+h2 {
+  padding-top: 3px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+  color: #333333;
+}
+
+h4 {
+  padding-top: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: #333333;
+}
+
+.h-group {
+  padding-bottom:3px;
+}
+
+ul {
+  padding-left: 25px;
+  margin-bottom: none;
+}
+
+.img-rounded {
+  border-radius: 4px;
+}
+
+.img-responsive {
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: -7px;
+}
+
+/*
+ * image scaling for wedding
+ */
+
+ .map-container {
+  position:relative;
+  width: 100%;
+  height: 0px;
+  padding-bottom: 75%;
+ }
+
+ .map-container iframe {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #333333;
+ }
+ 
+.img-container-scaling {
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: -7px;
+  background-position:center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 37.38%;
+  -webkit-transition:padding-bottom 0.5s;
+}
+
+.img-container-scaling:hover, .img-container-scaling:focus, .img-container-scaling:active {
+  padding-bottom: 64.23%;
+}
+/* ----------------------------------- */
+
+.divider {
+  height: 1px;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted;
+  border-color: #CFA5D2;
+}
+
+.text-box {
+  float: none;
+  padding: 15px;
+  /*border-radius: 4px;*/
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-color: #CFA5D2;
+  background-color: #FCF7FF;
+}
+
+.box-guy {
+  border-color: #848FC7;
+  background-color: #F2F3FC;
+}
+
+.box-girl {
+  border-color: #CFA5D2;
+  background-color: #FCF7FF;
+}
+
+.a-bold {
+  font-weight: 800;
+  color: #555555;
+}
+
+.a-bold:hover, .a-bold:focus {
+  font-weight: bold;
+  color: #555555;
+  /*text-decoration: none;*/
+}
+
+.text-guy {
+  color: #7879C4;
+}
+
+.text-normal {
+  color: #333333;
+}
+
+.text-girl {
+  color: #BF78C4;
+}
+
+/*
+ * extra sizing
+ */
+
+@media (max-width: 767px) {
+  
+  h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #333333;
+  }
+
+  h2 {
+    padding-top: 0px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    color: #333333;
+  }
+
+  h4 {
+    padding-top: 0px;
+    margin-top: -px;
+    margin-bottom: -2px;
+    color: #333333;
+  }
+
+}

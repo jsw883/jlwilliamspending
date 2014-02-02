@@ -1,0 +1,60 @@
+/*!
+ * Bootstrap v3.0.0
+ * Generic margin modification css.
+ */
+
+.margined {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.top-margined {
+  margin-top: 15px;
+}
+
+.bot-margined {
+  margin-bottom: 15px;
+}
+
+.no-margined {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.no-top-margined {
+  margin-top: 0px;
+}
+
+.no-bot-margined {
+  margin-bottom: 0px;
+}
+
+.divider-margins {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+
+  .double-bot-margined {
+    margin-bottom: 30px;
+  }
+  
+}
+
+@media (max-width: 767px) {
+
+  h1.no-top-margined {
+    margin-top: -2px;
+    margin-bottom: -5px;
+  }
+  
+  h1.xs-top-margined {
+    margin-top: 15px;
+  }
+  
+  .no-xs-top-margined {
+    margin-top: 0px;
+  }
+  
+}

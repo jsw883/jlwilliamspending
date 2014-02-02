@@ -1,0 +1,66 @@
+/*!
+ * Bootstrap v3.0.0
+ * Forms css code (under development).
+ */
+
+textarea {
+  resize: none;
+}
+
+.form-control {
+  border-color: #CFA5D2;
+}
+
+.btn-default {
+  border-color: #DDDDDD;
+}
+
+.btn-default:hover, .btn-default:focus {
+  background-color: #DDDDDD;
+  border-color: #DDDDDD; 
+}
+
+.btn-default.active {
+  background-color: #DDDDDD;
+  border-color: #DDDDDD; 
+}
+
+
+.btn-primary, .btn-primary:focus {
+  background-color: #CFA5D2;
+  border-color: #CFA5D2;
+}
+
+.btn-primary:hover  {
+  background-color: #9E5AA3;
+  border-color: #9E5AA3;
+  outline: none;
+}
+
+.btn-primary.active {
+  background-color: #9E5AA3;
+  border-color: #9E5AA3;
+  outline: none;
+}
+
+.btn-disabled, .btn-disabled:focus, .btn-disabled:hover, .btn-disabled.active {
+  background-color: #CFA5D2;
+  border-color: #CFA5D2;
+  cursor: default;
+  -webkit-box-shadow: none;
+}
+
+.btn-confirmed {
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #555555;
+  border: 1px solid;
+  border-color: #FCF7FF;
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  vertical-align: middle;
+}

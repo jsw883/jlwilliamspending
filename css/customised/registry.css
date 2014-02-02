@@ -1,0 +1,23 @@
+/*!
+ * Bootstrap v3.0.0
+ * Gallery css code (under development).
+ */
+
+/*
+ * purple dark   = #CFA5D2
+ * purple middle = #E5CAE8
+ * purple light  = #FCF7FF
+ *
+ * name purple = #C38EC7
+ * name blue   = #848FC7
+ */ 
+
+ .registry-image {
+   border: 1px solid #333333;
+   box-shadow: none;
+  -webkit-transition:box-shadow 0.5s;
+ }
+ 
+.registry-image:hover {
+   box-shadow: 0px 0px 10px #555555;
+}

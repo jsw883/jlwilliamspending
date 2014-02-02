@@ -1,0 +1,104 @@
+/*!
+ * Bootstrap v3.0.0
+ * Gallery css code (under development).
+ */
+
+/*
+ * purple dark   = #CFA5D2
+ * purple middle = #E5CAE8
+ * purple light  = #FCF7FF
+ *
+ * name purple = #C38EC7
+ * name blue   = #848FC7
+ */ 
+
+.gallery {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.gallery a {
+  text-decoration: none;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
+  margin-bottom: 15px;
+  display: inline-block;
+  box-sizing: content-box;
+}
+
+.gallery img {
+  vertical-align: middle;
+  width: 25px;
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  -webkit-transition:outline-color 0.5s;
+  outline-offset: -3px;
+}
+
+.gallery img:hover {
+  outline-color: rgba(255, 255, 255, .0);
+}
+
+.gallery img:active {
+  outline-color: rgba(255, 255, 255, .5);
+}
+
+.slide-content {
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: -7px;
+}
+
+.blueimp-gallery {
+  background: #FFFFFF;
+}
+
+.blueimp-gallery-lightbox {
+  background: #000000;
+}
+
+.blueimp-gallery-carousel {
+  box-shadow: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.blueimp-gallery > .prev, .blueimp-gallery > .next {
+  width: 25px;
+  height: 25px;
+  margin-top: -18px;
+  font-size: 35px;
+  line-height: 20px;
+  border-radius: 15px;
+  border: 1px solid white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+
+.blueimp-gallery > .prev {
+  margin-left: 15px;
+}
+
+.blueimp-gallery > .next {
+  margin-right: 15px;
+}
+
+@media (max-width: 465px) {
+  .blueimp-gallery .title {
+    font-size: 17px;
+  }
+  .blueimp-gallery-carousel .title {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .blueimp-gallery .title {
+    font-size: 16px;
+  }
+  .blueimp-gallery-carousel .title {
+    font-size: 16px;
+  }
+}

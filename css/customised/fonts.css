@@ -1,0 +1,19 @@
+/*!
+ * Additional Fonts
+ */
+ 
+@font-face {
+    font-family: weatz;
+    src: local(weatz), url('../../fonts/customised/SomeWeatz_with_swashes.ttf') format('truetype');
+}
+.weatz {
+  font-family: weatz;
+}
+@font-face {
+    font-family: vinyl;
+    src: local(vinyl), url('../../fonts/customised/VinylRegular.ttf') format('truetype');
+}
+.vinyl {
+  font-family: vinyl;
+  text-transform: uppercase;
+}

@@ -1,0 +1,160 @@
+/*!
+ * Bootstrap v3.0.0
+ * Navbar example additional padding.
+ */
+
+/*
+ * purple dark   = #CFA5D2
+ * purple middle = #E5CAE8
+ * purple light  = #FAEFFE
+ */ 
+
+body {
+  padding-top: 20px;
+}
+
+/* EXTRA COLOR */
+
+.navbar-default {
+  border-color: #CFA5D2;
+  background-color: #FAEFFE;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #CFA5D2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color:#303030;
+  background-color: #CFA5D2;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #CFA5D2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  width: 18px;
+  background-color: #CFA5D2;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #E5CAE8;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #FAEFFE;
+}
+
+/*!
+ * Bootstrap v3.0.0
+ * Margins and sizing.
+ */
+
+.navbar {
+  margin-bottom: 15px;
+  border-radius: 0px;
+  font-size: 15px;
+}
+
+.navbar-nav {
+  margin-top: 0px;
+  margin-right: -15px;
+  margin-bottom: 0px;
+  margin-left: -15px;
+}
+
+.navbar .nav li a {
+  font-weight: bold;
+  color: #333333;
+  -webkit-transition:color 0s;
+  -webkit-transition:background-color 0s;
+}
+
+.navbar .nav li a:hover {
+  background-color: #E5CAE8;
+  color: #303030;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-default .navbar-label {
+  color: #333333;
+}
+
+@media (min-width: 768px) {
+
+  .navbar-label {
+    display: none;
+  }
+  .navbar-nav {
+    float: none;
+    margin: 0;
+  }
+
+  .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+  }
+  
+  .navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid #CFA5D2;
+  }
+  
+  .navbar .nav li:first-child a {
+    border-left: 0;
+  }
+  .navbar .nav li:last-child a {
+    border-right: 0;
+  }
+  
+  
+  /* SIDE IMAGES */
+  
+  .left-detail {
+    margin-left: -300px;
+    margin-top: -100px;
+    margin-bottom: -400px;
+    width: 300px;
+    height: 500px;
+    float: left;
+  }
+  
+  .right-detail {
+    margin-right: -300px;
+    margin-top: -100px;
+    margin-bottom: -400px;
+    width: 300px;
+    height: 500px;
+    float: right;
+  }
+  
+}
+
+/*
+ * extra sizing
+ */
+ 
+@media (max-width: 767px) {
+  
+  body {
+    padding-top: 0px;
+  }
+  
+  .navbar {
+    margin-bottom: 0px;
+  }
+
+}

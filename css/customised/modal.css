@@ -1,0 +1,76 @@
+/*!
+ * Bootstrap v3.0.0
+ * Modal css code.
+ */
+ 
+.modal:focus {
+  outline: none;
+}
+
+.modal-content {
+  overflow: hidden;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.modal-header {
+  border-color: #e5e5e5;
+}
+
+.left-image {
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  border-right: 1px solid #e5e5e5;
+}
+
+.right-image {
+  height: 300px;
+  float: right;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 676px;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-dialog {
+    width: 900px;
+  }
+}
+
+/*!
+ * Bootstrap3-dialog v1.0.0
+ * Automated modal css code.
+ */
+ 
+.modal-backdrop.fade.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+ 
+ .bootstrap-dialog .modal-footer {
+   margin: 0px;
+   border-top: none;
+   padding-top: 0px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+ }
+ 
+ /*
+ .bootstrap-dialog .modal-footer {
+   margin: 0px;
+   border-top: 1px solid #F5EBF8;
+   padding: 15px;
+ }
+ */
+ 
+ .bootstrap-dialog.type-primary .modal-header {
+   background-color: #CFA5D2;
+ }

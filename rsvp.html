@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+  <!-- standard head -->
+    <meta charset="utf-8">
+    <title>Laura Holtslag ♥ James Williams </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <!-- bootstrap core CSS -->
+    <link href="./css/libs/bootstrap-3.0.0.css" rel="stylesheet">
+    <link href="./css/libs/bootstrap3-dialog-1.0.0.css" rel="stylesheet">
+    
+    <!-- custom styles for this template -->
+    <link href="./css/customised/navbar.css" rel="stylesheet">
+    <link href="./css/customised/body.css" rel="stylesheet">
+    <link href="./css/customised/head.css" rel="stylesheet">
+    <link href="./css/customised/fonts.css" rel="stylesheet">
+    <link href="./css/customised/forms.css" rel="stylesheet">
+    <link href="./css/customised/modal.css" rel="stylesheet">
+    
+    <link href="./css/customised/margins.css" rel="stylesheet">
+    
+    <style type="text/css"></style>
+    
+    <!-- google analytics js -->
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47447578-1', 'jlwilliamspending.co.nz');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-47447578-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      
+      <!-- header container -->
+      <div class="container">
+        
+        <!-- header text and images -->
+        <div class="head" id="head"><a href="./index.html">
+          <p class="head-name no-margined hidden-xs">
+            <span class="vinyl">
+            <span class="text-girl">LAURA</span>
+            <span class="text-normal">AND</span>
+            <span class="text-guy">JAMES</span>
+            </span>
+          </p>
+          <p class="head-name no-margined visible-xs">
+            <span class="vinyl">
+            <span class="text-girl">LAURA</span>
+            <span class="text-normal">&</span>
+            <span class="text-guy">JAMES</span>
+            </span>
+          </p>
+        </a></div>
+        
+        <!-- static navbar -->
+        <div class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand navbar-label" href="./index.html">Menu</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <!--<div class="left-detail"></div>
+            <div class="right-detail"></div>-->
+            <ul class="nav navbar-nav vinyl">
+              <li><a href="./index.html">The Couple</a></li>
+              <li><a href="./story.html">Our Story</a></li>
+              <li><a href="./photos.html">Photos</a></li>
+              <li class="active"><a href="./rsvp.html">RSVP</a></li>
+              <li><a href="./wedding.html">Wedding</a></li>
+              <li><a href="./registry.html">Registry</a></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      
+      <!-- main container -->
+      <div class="container">
+        
+        <!-- main text box -->
+        <div class="row">
+          <div class="col-md-12">
+            <!--<h1 class="no-top-margined vinyl" align="center" >RSVP</h1>-->
+            
+            <!-- information box -->
+            <div class="text-box">
+              <p align="justify">
+              So, we are actually having two receptions, one in the afternoon, immediately following the wedding, and one in the evening. We have so many friends that we would like to have at our reception, but obviously it would be a bit difficult to seat everyone that we know, so we decided to go for two receptions instead.
+              </p>
+              <p align="justify">
+              Our afternoon reception is open invitation, and we would love for everyone at the wedding to join us for some excellent food, embarassing skits, and endearing speeches from the bride and groom! Our evening reception is smaller and is for family, relatives, and family friends, and you should receive an invitation in the mail.
+              </p>
+              <p align="justify" class="no-bot-margined">
+              Please RSVP using the corresponding forms, so that we can estimate the numbers for the wedding and know who to chase up for the evening. Even if you are coming to the evening reception, let us know how many you are bringing to the wedding as well! Feel free to drop us a message or email us if you have any questions!
+              </p>
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- rsvp wedding form -->
+        <div class="row">
+          <div class="col-md-12">
+            
+            <h1 class="no-top-margined vinyl" align="center" >Wedding / Afternoon</h1>
+            
+            <div class="text-box" id="div-rsvp-wedding">
+              
+              <form id="rsvp-wedding-md" class="form-inline hidden-xs" method="post" action="./rsvp/php/rsvp-wedding.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="rsvp-name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="rsvp-number-attending" placeholder="Number attending"></textarea>
+                </div>
+                <button type="button" onclick="submitRSVPWeddingMD()" class="btn btn-primary" style="float:right">RSVP</button>
+              </form>
+              
+              <form id="rsvp-wedding-xs" class="form-inline visible-xs" method="post" action="./rsvp/php/rsvp-wedding.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="rsvp-name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="rsvp-number-attending" placeholder="Number attending"></textarea>
+                </div>
+                <button type="button" onclick="submitRSVPWeddingXS()" class="btn btn-primary" style="float:none">RSVP</button>
+              </form>
+              
+            </div>
+            
+            <div class="hidden" id="rsvp-done-wedding">
+              <div class="text-box">
+                <p class="btn-confirmed">RSVP Confirmed</p>
+              </div>
+              <div class="text-box">
+                <p align="justify" class="no-bot-margined">
+                Thank you for your wedding / afternoon RSVP. We hope to see you at the afternoon reception as well! <a href="mailto:email@jlwilliamspending.co.nz">Email us</a> if you change your mind.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- rsvp evening form -->
+        <div class="row">
+          <div class="col-md-12">
+            
+            <h1 class="no-top-margined vinyl" align="center" >Evening Reception</h1>
+             
+            <div class="text-box" id="div-rsvp-evening">
+              <form id="rsvp-evening" method="post" action="./rsvp/php/rsvp-evening.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="rsvp-name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="rsvp-email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <div class="btn-toolbar" data-toggle="buttons">
+                    <label class="btn btn-primary">
+                      <input type="radio" name="rsvp-answer" value="yes">Attending
+                    </label>
+                    <label class="btn btn-primary">
+                      <input type="radio" name="rsvp-answer" value="no">Not Attending
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" rows="10" name="rsvp-message" placeholder="Message / Questions / Dietary requirements"></textarea>
+                </div>
+                <button type="button" onclick="submitRSVPEvening()" class="btn btn-primary">RSVP</button> <!-- type="submit" -->
+              </form>
+            </div>
+            
+            <div class="hidden" id="rsvp-yes-evening">
+              <div class="text-box">
+                <p class="btn-confirmed">RSVP Confirmed</p>
+              </div>
+              <div class="text-box">
+                <p align="justify" class="no-bot-margined">
+                Thank you for your evening RSVP. We look forward to seeing you at the evening reception! <a href="mailto:email@jlwilliamspending.co.nz">Email us</a> if you change your mind.
+                </p>
+              </div>
+            </div>
+            
+            <div class="hidden" id="rsvp-no-evening">
+              <div class="text-box">
+                <p class="btn-confirmed">RSVP Confirmed</p>
+              </div>
+              <div class="text-box">
+                <p align="justify" class="no-bot-margined">
+                Thank you for your evening RSVP. We would have loved you to be there, but we understand! <a href="mailto:email@jlwilliamspending.co.nz">Email us</a> if you change your mind.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      
+      <div id="push"></div>
+    </div>
+    
+    <div class="foot" id="foot">
+      <div class="container">
+        <p class="no-margined">Put together by the <a href="mailto:james@jlwilliamspending.co.nz">groom</a>, with the <a onclick="clearAllCookies();" style="color:#000000">help</a> from his beautiful <a href="mailto:laura@jlwilliamspending.co.nz">bride!</a></p>
+      </div>
+    <div>
+    
+    <!-- bootstrap core JavaScript -->
+    <!-- ========================================================== -->
+    <!-- placed at the end of the document so the pages load faster -->
+    
+    <script src="./js/libs/jquery-1.10.2.js"></script>
+    <script src="./js/libs/jquery-ui-1.10.3.js"></script>
+    <script src="./js/libs/bootstrap-3.0.0.js"></script>
+    
+    <script src="./js/libs/bootstrap3-dialog-1.0.0.js"></script>
+    
+    <script src="./js/customised/rsvp.js"></script>
+    <script src="./js/customised/cookies.js"></script>
+    
+  </body>
+  
+  
+</html>
