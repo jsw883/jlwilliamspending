@@ -79,8 +79,11 @@
             <span class="text-normal">&</span>
             <span class="text-guy">JAMES</span>
             </span>
+          </p></a>
+          <p class="head-sub">
+            <span class="vinyl text-normal">21 June 2014</span>
           </p>
-        </a></div>
+        </div>
         
         <!-- static navbar -->
         <div class="navbar navbar-default">
@@ -144,7 +147,7 @@
           </div>
         </div>
         
-        <div class="divider no-bot-margined"></div>
+        <div class="divider no-xs-bot-margined"></div>
         
         <!-- blueimp-gallery-carousel -->
         <div class="row">
@@ -195,10 +198,17 @@
     </div>
     
     <div class="foot" id="foot">
-      <div class="container">
+      <div class="divider no-bot-margined"></div>
+      <div class="footer-h-group hidden-xs">
+        <h4 id="counter" class="vinyl text-normal"></h4>
+      </div>
+      <div class="footer-h-group visible-xs">
+        <h4 id="counter-xs" class="vinyl text-normal"></h4>
+      </div>
+      <div class="footer-text-box">
         <p class="no-margined">Put together by the <a href="mailto:james@jlwilliamspending.co.nz">groom</a>, with the help from his beautiful <a href="mailto:laura@jlwilliamspending.co.nz">bride!</a></p>
       </div>
-    <div>
+    </div>
     
     <!-- bootstrap core JavaScript -->
     <!-- ========================================================== -->
@@ -215,6 +225,13 @@
     <script src="./js/libs/blueimp-gallery-vimeo-2.12.5.js"></script>
     <script src="./js/libs/blueimp-gallery-youtube-2.12.5.js"></script>
     <script src="./js/libs/blueimp-helper-2.12.5.js"></script>
+    
+    <!-- counters -->
+    <script src="./js/customised/counters.js"></script>
+    
+    <script>
+      $(document).ready(startTime());
+    </script>
     
     <!-- carousel script -->
     <script>
@@ -263,6 +280,5 @@
     </script>
     
   </body>
-  
   
 </html>

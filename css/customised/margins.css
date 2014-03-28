@@ -53,8 +53,16 @@
     margin-top: 15px;
   }
   
+  h1.xs-bot-margined {
+    margin-bottom: 15px;
+  }
+  
   .no-xs-top-margined {
     margin-top: 0px;
+  }
+  
+  .no-xs-bot-margined {
+    margin-bottom: 0px;
   }
   
 }

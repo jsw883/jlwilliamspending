@@ -76,8 +76,11 @@
             <span class="text-normal">&</span>
             <span class="text-guy">JAMES</span>
             </span>
+          </p></a>
+          <p class="head-sub">
+            <span class="vinyl text-normal">21 June 2014</span>
           </p>
-        </a></div>
+        </div>
         
         <!-- static navbar -->
         <div class="navbar navbar-default">
@@ -138,7 +141,7 @@
             <div class="text-box" id="div-rsvp-wedding">
               
               <form id="rsvp-wedding-md" class="form-inline hidden-xs" method="post" action="./rsvp/php/rsvp-wedding.php">
-                <div class="form-group">
+                <div class="form-group" style="margin-right:8px">
                   <input type="text" class="form-control" name="rsvp-name" placeholder="Name">
                 </div>
                 <div class="form-group">
@@ -235,10 +238,17 @@
     </div>
     
     <div class="foot" id="foot">
-      <div class="container">
-        <p class="no-margined">Put together by the <a href="mailto:james@jlwilliamspending.co.nz">groom</a>, with the <a onclick="clearAllCookies();" style="color:#000000">help</a> from his beautiful <a href="mailto:laura@jlwilliamspending.co.nz">bride!</a></p>
+      <div class="divider no-bot-margined"></div>
+      <div class="footer-h-group hidden-xs">
+        <h4 id="counter" class="vinyl text-normal"></h4>
       </div>
-    <div>
+      <div class="footer-h-group visible-xs">
+        <h4 id="counter-xs" class="vinyl text-normal"></h4>
+      </div>
+      <div class="footer-text-box">
+        <p class="no-margined">Put together by the <a href="mailto:james@jlwilliamspending.co.nz">groom</a>, with the help from his beautiful <a href="mailto:laura@jlwilliamspending.co.nz">bride!</a></p>
+      </div>
+    </div>
     
     <!-- bootstrap core JavaScript -->
     <!-- ========================================================== -->
@@ -253,7 +263,13 @@
     <script src="./js/customised/rsvp.js"></script>
     <script src="./js/customised/cookies.js"></script>
     
+    <!-- counters -->
+    <script src="./js/customised/counters.js"></script>
+    
+    <script>
+      $(document).ready(startTime());
+    </script>
+    
   </body>
-  
   
 </html>

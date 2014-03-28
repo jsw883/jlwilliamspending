@@ -49,7 +49,7 @@
       })();
 
     </script>
-
+    
   </head>
 
   <body>
@@ -73,8 +73,11 @@
             <span class="text-normal">&</span>
             <span class="text-guy">JAMES</span>
             </span>
+          </p></a>
+          <p class="head-sub">
+            <span class="vinyl text-normal">21 June 2014</span>
           </p>
-        </a></div>
+        </div>
         
         <!-- static navbar -->
         <div class="navbar navbar-default">
@@ -110,8 +113,9 @@
           
           <!-- wedding / afternoon -->
           <div class="col-sm-6">
-            <div class="img-container-scaling margined" style="background-image:url(./img/wedding/DSC00383-background.jpg);">
-            </div>
+            <!--<div class="img-container-scaling margined" style="background-image:url(./img/wedding/DSC00383-background.jpg);">
+            </div>-->
+            <img src="./img/wedding/DSC00383-background.jpg" class="img-responsive margined">
             <div class="h-group">
               <h2 class="vinyl text-normal" align="center">Wedding / Afternoon</h2>
               <h4 class="vinyl text-guy" align="center">St Andrew's Presbyterian Church</h4>
@@ -138,8 +142,9 @@
           
           <!-- evening reception -->
           <div class="col-sm-6">
-            <div class="img-container-scaling margined" style="background-image:url(./img/wedding/continental-event-hire-catering-compressed.jpg);">
-            </div>
+            <!--<div class="img-container-scaling margined" style="background-image:url(./img/wedding/continental-event-hire-catering-compressed.jpg);">
+            </div>-->
+            <img src="./img/wedding/continental-event-hire-catering-compressed.jpg" class="img-responsive margined">
             <div class="h-group">
               <h2 class="vinyl text-normal" align="center">Evening Reception</h2>
               <h4 class="vinyl text-guy" align="center">Newbery Lodge</h4>
@@ -170,10 +175,17 @@
     </div>
     
     <div class="foot" id="foot">
-      <div class="container">
+      <div class="divider no-bot-margined"></div>
+      <div class="footer-h-group hidden-xs">
+        <h4 id="counter" class="vinyl text-normal"></h4>
+      </div>
+      <div class="footer-h-group visible-xs">
+        <h4 id="counter-xs" class="vinyl text-normal"></h4>
+      </div>
+      <div class="footer-text-box">
         <p class="no-margined">Put together by the <a href="mailto:james@jlwilliamspending.co.nz">groom</a>, with the help from his beautiful <a href="mailto:laura@jlwilliamspending.co.nz">bride!</a></p>
       </div>
-    <div>
+    </div>
     
     <!-- bootstrap core JavaScript -->
     <!-- ========================================================== -->
@@ -183,7 +195,13 @@
     <script src="./js/libs/jquery-ui-1.10.3.js"></script>
     <script src="./js/libs/bootstrap-3.0.0.js"></script>
     
+    <!-- counters -->
+    <script src="./js/customised/counters.js"></script>
+    
+    <script>
+      $(document).ready(startTime());
+    </script>
+    
   </body>
-  
   
 </html>

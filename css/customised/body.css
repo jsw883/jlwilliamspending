@@ -28,6 +28,7 @@ body {
 
 a {
   color:#4E53CD;
+  transition:color 0.5s;
   -webkit-transition:color 0.5s;
 }
 
@@ -105,6 +106,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 37.38%;
+  transition:padding-bottom 0.5s;
   -webkit-transition:padding-bottom 0.5s;
 }
 
@@ -178,7 +180,7 @@ ul {
 
   h2 {
     padding-top: 0px;
-    margin-top: -2px;
+    margin-top: -1px;
     margin-bottom: -2px;
     color: #333333;
   }

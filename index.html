@@ -73,8 +73,11 @@
             <span class="text-normal">&</span>
             <span class="text-guy">JAMES</span>
             </span>
+          </p></a>
+          <p class="head-sub">
+            <span class="vinyl text-normal">21 June 2014</span>
           </p>
-        </a></div>
+        </div>
         
         <!-- static navbar -->
         <div class="navbar navbar-default">
@@ -134,13 +137,13 @@
               <h2 class="vinyl text-normal" align="center">Her</h2>
               <h4 class="vinyl text-girl" align="center">Laura Holtslag</h4>
             </div>
-            <div class="text-box box-girl" style="border-color:#C38EC7; background-color:#FCF7FF">
+            <div class="text-box box-girl">
               <p align="justify">
               I'm Laura, and I am engaged to that guy you see over there! I live in NZ with my family, and have just completed my final year of school. I am currently working at a sewing shop, and studying childcare / child-development and will hopefully become a qualified nanny! I have lived in the US for three years, and am looking forward to moving back there with James, and meeting all of his US friends!
               </p>
-              <p align="justify" style="color:#C38EC7">
+              <p align="justify" class="text-girl no-bot-margined">
               I am incredibly happy to have James at my side, and so excited to begin the next chapter in the story of our lives! Long distance has been pretty rough, but his strength and cheerfulness have helped me immensely! His visits have been wonderful, especially this one. and knowing that I get to spend the rest of my life with him makes me realise how truly blessed I am to be loved by him!
-              <p>
+              </p>
             </div>
           </div>
           
@@ -156,7 +159,7 @@
               <p align="justify">
               Hey y'all! The name's James, and as you can tell from my 'Murican slang, I am studying in the US when I am not flying back to NZ to visit my friends, family, and fiance! Mum kicked me out of the country in August 2012, and since then my home away from home has been New Haven, CT. I am studying applied mathematics, and as I have just started researching, we will make the East Coast our home for the next couple years!
               </p>
-              <p align="justify" style="color:#848FC7">
+              <p align="justify" class="text-guy no-bot-margined">
               Laura is my closest friend and dearly beloved, and I have been blessed to know her for six years and to have courted her for two years. She has been patient, kind, thoughtful, and more loving than I could ever deserve, being apart more than we have been together, suffering long skype calls and short visits! I cannot wait for the day that I can start providing for her as her husband!
               </p>
             </div>
@@ -170,10 +173,17 @@
     </div>
     
     <div class="foot" id="foot">
-      <div class="container">
+      <div class="divider no-bot-margined"></div>
+      <div class="footer-h-group hidden-xs">
+        <h4 id="counter" class="vinyl text-normal"></h4>
+      </div>
+      <div class="footer-h-group visible-xs">
+        <h4 id="counter-xs" class="vinyl text-normal"></h4>
+      </div>
+      <div class="footer-text-box">
         <p class="no-margined">Put together by the <a href="mailto:james@jlwilliamspending.co.nz">groom</a>, with the help from his beautiful <a href="mailto:laura@jlwilliamspending.co.nz">bride!</a></p>
       </div>
-    <div>
+    </div>
     
     <!-- bootstrap core JavaScript -->
     <!-- ========================================================== -->
@@ -183,7 +193,13 @@
     <script src="./js/libs/jquery-ui-1.10.3.js"></script>
     <script src="./js/libs/bootstrap-3.0.0.js"></script>
     
+    <!-- counters -->
+    <script src="./js/customised/counters.js"></script>
+    
+    <script>
+      $(document).ready(startTime());
+    </script>
+    
   </body>
-  
   
 </html>
